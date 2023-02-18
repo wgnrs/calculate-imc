@@ -19,13 +19,13 @@ def main():
     print('', instanceImc.pacoca)
 
     if imc < 18.5:
-        print("You're under weight")
+        print('You are under weight')
     elif 18.5 <= imc <= 24.9:
-        print("You're on ideal weight")
+        print('You are on ideal weighe')
     elif 25.0 <= imc <= 29.9:
-        print("You're overweight")
+        print('You are overweight')
     else:
-        print("You're obese")
+        print('You are obese')
 
 if __name__ == '__main__':
     main()
