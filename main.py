@@ -16,7 +16,7 @@ def main():
     if instanceImc.pacoca != None:
         print('Comeu muita paçoca então o imc é vezes 2:', imc * 2)
 
-    print('', instanceImc.pacoca) n ta commitando
+    print('', instanceImc.pacoca)
 
     if imc < 18.5:
         print('You are under weight')
